@@ -20,7 +20,6 @@
     --color-secondary: #F2E5D2;
     --color-primary-light: #DBECD2;
 
-    --color-text: #000000;
     --color-text-muted: #A5A5A5;
 }
 
@@ -48,4 +47,17 @@ body {
 .card:hover {
     transform: scale(1.04);
     border: 2px solid var(--color-primary-light);
+}
+
+.sobre {
+    background-image: url("assets/ramo.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 160px;
+}
+
+@media (max-width: 768px) {
+    .sobre {
+        background-image: none;
+    }
 }
