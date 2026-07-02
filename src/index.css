@@ -56,6 +56,13 @@ body {
     background-size: 160px;
 }
 
+.depoimentos {
+    background-image: url("assets/aspas.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 180px;
+}
+
 @media (max-width: 768px) {
     .sobre {
         background-image: none;
