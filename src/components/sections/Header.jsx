@@ -1,14 +1,34 @@
 import Button from "../Button";
-import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
+import { useEffect, useState } from "react";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
   const closeMenu = () => setIsOpen(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="bg-[#F5F0EC]/30 backdrop-blur-md fixed top-0 left-0 w-full z-50">
+    <header
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-[#F5F0EC]/86 backdrop-blur-md shadow-sm"
+          : "bg-transparent"
+      }`}
+    >
       <nav className="flex justify-between max-w-7xl mx-auto items-center px-8 py-4 md:p-4">
         <div className="flex flex-col">
           <h2 className="text-xl text-primary font-playfair">Dra. Ana Silva</h2>
