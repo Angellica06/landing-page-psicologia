@@ -1,16 +1,41 @@
-# React + Vite
+# Landing Page – Psicóloga
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desenvolvida para uma psicóloga fictícia, com foco em apresentar seus serviços, 
+especialidades e facilitar o contato com pacientes.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- Tailwind CSS
+- React Icons
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Layout totalmente responsivo
+- Header com efeito ao rolar a página
+- Menu mobile
+- Seções de especialidades, sobre, depoimentos e contato
+- Botão para agendamento
+- Imagens otimizadas para melhor desempenho
 
-## Expanding the ESLint configuration
+## ⚙️ Como executar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Angellica06/landing-page-psicologia.git
+cd nome-do-projeto
+npm install
+npm run dev
+```
+
+## 🌐 Deploy
+Acesse a aplicação online: https://draanapsicologa.netlify.app
+
+## 📸 Preview
+
+<img width="1897" height="906" alt="Captura de tela 2026-07-06 182927" src="https://github.com/user-attachments/assets/c549b8db-9d62-4c71-9713-a52c8d0d6db3" />
+
+
+## 🎨 Layout
+
+O layout foi desenvolvido por mim no Figma e posteriormente implementado em React utilizando Vite e Tailwind CSS.
