@@ -65,9 +65,9 @@ body {
 }
 
 .contato {
-    background-image: url("assets/contato.png");
+    background-image: url("assets/contato.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: center top;
     background-size: cover;
 }
 

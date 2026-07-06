@@ -7,7 +7,7 @@ function About() {
     <section id="sobre" className="py-10 md:py-12 px-8">
       <Container className="sobre grid grid-cols-1 lg:grid-cols-[35%_55%] gap-6 justify-center items-center bg-[#F4F4EF] rounded-3xl px-10 lg:px-28 py-12">
         <div className="mx-auto lg:mx-0 py-4">
-          <img src={Sobre} alt="Foto da psicóloga Dra. Ana Silva" />
+          <img loading="lazy" src={Sobre} alt="Foto da psicóloga Dra. Ana Silva" />
         </div>
 
         <div className="flex flex-col gap-6 text-start">
