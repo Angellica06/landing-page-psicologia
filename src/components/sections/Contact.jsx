@@ -21,19 +21,19 @@ function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 w-full gap-6 mt-6 sm:px-8 lg:px-20">
-          <div className="flex flex-col gap-4 text-center text-primary bg-surface p-6 border border-secondary rounded-xl hover:border hover:border-accent">
+          <div className="flex flex-col gap-4 text-center items-center text-primary bg-surface p-6 border border-secondary rounded-xl hover:border hover:border-accent">
             <BsTelephone className="mx-auto text-2xl" />
-            <p className="tracking-widest">(00) 00000-0000</p>
+            <p className="text-sm tracking-widest">(00) 00000-0000</p>
           </div>
 
-          <div className="flex flex-col gap-4 text-center text-primary bg-surface py-6 px-8 border border-secondary rounded-xl hover:border hover:border-accent">
+          <div className="flex flex-col gap-4 text-center items-center text-primary bg-surface py-6 px-8 border border-secondary rounded-xl hover:border hover:border-accent">
             <BsEnvelope className="mx-auto text-2xl" />
-            <p className="tracking-widest">contato@draanasilva.com</p>
+            <p className="text-sm tracking-widest">contato@draanasilva.com</p>
           </div>
 
-          <div className="flex flex-col gap-4 text-center text-primary bg-surface py-6 px-8 border border-secondary rounded-xl hover:border hover:border-accent">
+          <div className="flex flex-col gap-4 text-center text-primary items-center bg-surface py-6 px-8 border border-secondary rounded-xl hover:border hover:border-accent">
             <BsGeoAlt className="mx-auto text-2xl" />
-            <p className="tracking-widest">Salvador · Online</p>
+            <p className="text-sm tracking-widest">Salvador · Online</p>
           </div>
         </div>
 
