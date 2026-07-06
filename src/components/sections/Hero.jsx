@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="hero pt-10 md:pt-16">
+    <section id="inicio" className="hero pt-10 md:pt-16">
       <Container className="grid grid-cols-1 lg:grid-cols-2 mt-14">
         <div className="space-y-4 pt-20">
           <p className="text-sm text-[#AF8A53] tracking-widest">
